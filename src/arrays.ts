@@ -4,7 +4,6 @@
  * an empty array. If there is one element, the resulting list should
  * the number twice.
  */
-<<<<<<< HEAD
 // export function bookEndList(numbers: number[]): number[] {
 //     const endNumbers: number[] = [];
 //     if (numbers.length == 0) {
