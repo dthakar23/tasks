@@ -48,11 +48,15 @@ export function stringsToIntegers(numbers: string[]): number[] {
 // Remember, you can write functions as lambdas too! They work exactly the same.
 export const removeDollars = (amounts: string[]): number[] => {
     let noDollarResult: string[] = [];
-    noDollarResult = amounts.map((str: string): string =>
-        str.includes("?") ? str.replace("$", "") : str
+    noDollarResult = amounts.map((amount: string): string =>
+        amount.includes("$") ? amount.replace("$", "") : amount
     );
-    return stringsToIntegers(noDollarResult);
-};
+    const result = noDollarResult.map((str: string): number => Number(str));
+    const finalResult = result.map((item: number): number =>
+        isNaN(item) === false ? item : 0
+    );
+    return finalResult;
+}
 
 /**
  * Consume an array of messages and return a new list of the messages. However, any
@@ -60,6 +64,16 @@ export const removeDollars = (amounts: string[]): number[] => {
  * in question marks ("?").
  */
 export const shoutIfExclaiming = (messages: string[]): string[] => {
+    let newMessages: string[] = [];
+    newMessages
+    // let newMessages: string[] = [];
+    // newMessages = messages
+    //     .filter((str: string): boolean => str.includes("$") ? str
+
+    // );
+    // newMessages = messages.map((str: string): string =>
+    //     str.includes("!") ? str.replace(str, str.toUpperCase) : str
+    // );
     return [];
 };
 
@@ -68,6 +82,10 @@ export const shoutIfExclaiming = (messages: string[]): string[] => {
  * 4 letters long.
  */
 export function countShortWords(words: string[]): number {
+    // let shortWords: string[] = [];
+    // shortWords = words.map((word: string): string =>
+    //     word.length < 4 ? word.splice(word, null) : word
+    // );
     return 0;
 }
 
