@@ -65,28 +65,23 @@ export const removeDollars = (amounts: string[]): number[] => {
  */
 export const shoutIfExclaiming = (messages: string[]): string[] => {
     let newMessages: string[] = [];
-    newMessages
-    // let newMessages: string[] = [];
-    // newMessages = messages
-    //     .filter((str: string): boolean => str.includes("$") ? str
-
-    // );
-    // newMessages = messages.map((str: string): string =>
-    //     str.includes("!") ? str.replace(str, str.toUpperCase) : str
-    // );
-    return [];
-};
+    newMessages = messages
+        .filter((message: string): boolean => !message.endsWith("?"))
+        .map((message: string): string => message.includes("!") ? message.replace(message, message.toUpperCase()) : message
+    );
+    return newMessages;
+}
 
 /**
  * Consumes an array of words and returns the number of words that are LESS THAN
  * 4 letters long.
  */
 export function countShortWords(words: string[]): number {
-    // let shortWords: string[] = [];
-    // shortWords = words.map((word: string): string =>
-    //     word.length < 4 ? word.splice(word, null) : word
-    // );
-    return 0;
+    let shortWords: string[] = [];
+    shortWords = words.filter((word: string): boolean =>
+        word.length < 4
+    );
+    return shortWords.length;
 }
 
 /**
@@ -95,7 +90,10 @@ export function countShortWords(words: string[]): number {
  * then return true.
  */
 export function allRGB(colors: string[]): boolean {
-    return false;
+    if (colors == []){
+        return true;
+    }
+    return colors.every((color: string): boolean => color == "red" || color == "blue" || color == "green");
 }
 
 /**
@@ -106,7 +104,12 @@ export function allRGB(colors: string[]): boolean {
  * And the array [] would become "0=0".
  */
 export function makeMath(addends: number[]): string {
-    return "";
+    if (addends == []){
+        return "0=0";
+    }
+    const sum = addends.reduce((currentTotal: number, addend: number) => currentTotal + addend, 0);
+    const strSum = addends.join("+");
+    return sum + "=" + strSum;
 }
 
 /**
