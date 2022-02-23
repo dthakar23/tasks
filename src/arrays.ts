@@ -56,7 +56,7 @@ export const removeDollars = (amounts: string[]): number[] => {
         isNaN(item) === false ? item : 0
     );
     return finalResult;
-}
+};
 
 /**
  * Consume an array of messages and return a new list of the messages. However, any
@@ -67,10 +67,13 @@ export const shoutIfExclaiming = (messages: string[]): string[] => {
     let newMessages: string[] = [];
     newMessages = messages
         .filter((message: string): boolean => !message.endsWith("?"))
-        .map((message: string): string => message.includes("!") ? message.replace(message, message.toUpperCase()) : message
-    );
+        .map((message: string): string =>
+            message.includes("!")
+                ? message.replace(message, message.toUpperCase())
+                : message
+        );
     return newMessages;
-}
+};
 
 /**
  * Consumes an array of words and returns the number of words that are LESS THAN
@@ -78,9 +81,7 @@ export const shoutIfExclaiming = (messages: string[]): string[] => {
  */
 export function countShortWords(words: string[]): number {
     let shortWords: string[] = [];
-    shortWords = words.filter((word: string): boolean =>
-        word.length < 4
-    );
+    shortWords = words.filter((word: string): boolean => word.length < 4);
     return shortWords.length;
 }
 
@@ -90,10 +91,13 @@ export function countShortWords(words: string[]): number {
  * then return true.
  */
 export function allRGB(colors: string[]): boolean {
-    if (colors == []){
+    if (colors == []) {
         return true;
     }
-    return colors.every((color: string): boolean => color == "red" || color == "blue" || color == "green");
+    return colors.every(
+        (color: string): boolean =>
+            color == "red" || color == "blue" || color == "green"
+    );
 }
 
 /**
@@ -104,10 +108,13 @@ export function allRGB(colors: string[]): boolean {
  * And the array [] would become "0=0".
  */
 export function makeMath(addends: number[]): string {
-    if (addends.length === 0){
+    if (addends.length === 0) {
         return "0=0";
     }
-    const sum = addends.reduce((currentTotal: number, addend: number) => currentTotal + addend, 0);
+    const sum = addends.reduce(
+        (currentTotal: number, addend: number) => currentTotal + addend,
+        0
+    );
     const strSum = addends.join("+");
     return sum + "=" + strSum;
 }
@@ -122,15 +129,21 @@ export function makeMath(addends: number[]): string {
  * And the array [1, 9, 7] would become [1, 9, 7, 17]
  */
 export function injectPositive(values: number[]): number[] {
-    const newArray = [...values]; 
+    const newArray = [...values];
     const finalArray = [...values];
     const injection = values.findIndex((value: number): boolean => value < 0);
-    if (injection === -1){
-        const sum = values.reduce((currentTotal: number, value: number) => currentTotal + value, 0);
+    if (injection === -1) {
+        const sum = values.reduce(
+            (currentTotal: number, value: number) => currentTotal + value,
+            0
+        );
         return [...values, sum];
     } else {
         newArray.splice(injection);
-        const newSum = newArray.reduce((total: number, newArrayItem: number) => total + newArrayItem, 0);
+        const newSum = newArray.reduce(
+            (total: number, newArrayItem: number) => total + newArrayItem,
+            0
+        );
         finalArray.splice(injection + 1, 0, newSum);
         return finalArray;
     }
