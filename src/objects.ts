@@ -50,18 +50,16 @@ export function isCorrect(question: Question, answer: string): boolean {
  * be exactly one of the options.
  */
 export function isValid(question: Question, answer: string): boolean {
-    let check: boolean = false;
     if (question.type === "short_answer_question") {
-        check = true;
+        return true;
     } else if (
         question.type === "multiple_choice_question" &&
         question.options.includes(answer)
     ) {
-        check = true;
+        return true;
     } else {
-        check = false;
+        return false;
     }
-    return check;
 }
 
 /**
@@ -94,20 +92,19 @@ export function toShortForm(question: Question): string {
  * Check the unit tests for more examples of what this looks like!
  */
 export function toMarkdown(question: Question): string {
-    let mark: string = "";
     if (question.type === "multiple_choice_question") {
-        mark =
+        return (
             "# " +
             question.name +
             "\n" +
             question.body +
             "\n" +
             "- " +
-            question.options.toString().replaceAll(",", "\n- "); //takes comma in options and puts dash in and makes vertical list
+            question.options.toString().replaceAll(",", "\n- ")
+        ); //takes comma in options and puts dash in and makes vertical list
     } else {
-        mark = "# " + question.name + "\n" + question.body;
+        return "# " + question.name + "\n" + question.body;
     }
-    return mark;
 }
 
 /**
