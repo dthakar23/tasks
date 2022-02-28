@@ -97,9 +97,15 @@ export function toMarkdown(question: Question): string {
     let mark: string = "";
     if (question.type === "multiple_choice_question") {
         mark =
-            "# " + question.name + question.body + "- " + question.options[0];
+            "# " +
+            question.name +
+            "\n" +
+            question.body +
+            "\n" +
+            "- " +
+            question.options.toString().replaceAll(",", "\n- "); //takes comma in options and puts dash in and makes vertical list
     } else {
-        mark = "# " + question.name + question.body;
+        mark = "# " + question.name + "\n" + question.body;
     }
     return mark;
 }
@@ -145,7 +151,11 @@ export function duplicateQuestion(id: number, oldQuestion: Question): Question {
  * Check out the subsection about "Nested Fields" for more information.
  */
 export function addOption(question: Question, newOption: string): Question {
-    return question;
+    const newQuestion = {
+        ...question,
+        options: [...question.options, newOption]
+    };
+    return newQuestion;
 }
 
 /**
