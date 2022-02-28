@@ -30,7 +30,17 @@ export function makeBlankQuestion(
  * HINT: Look up the `trim` and `toLowerCase` functions.
  */
 export function isCorrect(question: Question, answer: string): boolean {
-    return false;
+    //you can't modify/mutate original data; always make a copy
+    //make correct answer also lowercase
+    let answerCopy: string = answer;
+    answerCopy = answerCopy.trim().toLowerCase();
+    let expectedCopy: string = question.expected;
+    expectedCopy = expectedCopy.toLowerCase();
+    if (answerCopy === expectedCopy) {
+        return true;
+    } else {
+        return false;
+    }
 }
 
 /**
@@ -40,7 +50,18 @@ export function isCorrect(question: Question, answer: string): boolean {
  * be exactly one of the options.
  */
 export function isValid(question: Question, answer: string): boolean {
-    return false;
+    let check: boolean = false;
+    if (question.type === "short_answer_question") {
+        check = true;
+    } else if (
+        question.type === "multiple_choice_question" &&
+        question.options.includes(answer)
+    ) {
+        check = true;
+    } else {
+        check = false;
+    }
+    return check;
 }
 
 /**
@@ -50,7 +71,9 @@ export function isValid(question: Question, answer: string): boolean {
  * name "My First Question" would become "9: My First Q".
  */
 export function toShortForm(question: Question): string {
-    return "";
+    let newName: string = question.name;
+    newName = newName.substring(0, 10);
+    return question.id + ": " + newName;
 }
 
 /**
@@ -88,7 +111,13 @@ export function renameQuestion(question: Question, newName: string): Question {
  * published; if it was published, now it should be not published.
  */
 export function publishQuestion(question: Question): Question {
-    return question;
+    let newQuestion: Question = question;
+    if (question.published === true) {
+        newQuestion = { ...question, published: false };
+    } else {
+        newQuestion = { ...question, published: true };
+    }
+    return newQuestion;
 }
 
 /**
