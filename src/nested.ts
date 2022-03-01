@@ -41,7 +41,7 @@ export function findQuestion(
         (question: Question): boolean => question.id === id
     );
     if (found) {
-        return found.includes(id);
+        return found;
     } else {
         return null;
     }
