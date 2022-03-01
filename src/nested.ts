@@ -1,5 +1,7 @@
+import { type } from "node:os";
 import { Answer } from "./interfaces/answer";
 import { Question, QuestionType } from "./interfaces/question";
+import { makeBlankQuestion, renameQuestion } from "./objects";
 
 /**
  * Consumes an array of questions and returns a new array with only the questions
@@ -149,7 +151,10 @@ export function publishAll(questions: Question[]): Question[] {
  * are the same type. They can be any type, as long as they are all the SAME type.
  */
 export function sameType(questions: Question[]): boolean {
-    return false;
+    const sameTypeQ = questions.every(
+        (question: Question): boolean => question.type === question.type
+    );
+    return sameTypeQ;
 }
 
 /***
@@ -163,7 +168,8 @@ export function addNewQuestion(
     name: string,
     type: QuestionType
 ): Question[] {
-    return [];
+    const newArray = [...questions, makeBlankQuestion(id, name, type)];
+    return newArray;
 }
 
 /***
@@ -176,7 +182,11 @@ export function renameQuestionById(
     targetId: number,
     newName: string
 ): Question[] {
-    return [];
+    const newArray = questions.map(
+        (question: Question): Question =>
+            question.id === targetId ? { ...question, name: newName } : question
+    );
+    return newArray;
 }
 
 /***
@@ -191,7 +201,13 @@ export function changeQuestionTypeById(
     targetId: number,
     newQuestionType: QuestionType
 ): Question[] {
-    return [];
+    const newArray = questions.map(
+        (question: Question): Question =>
+            question.id === targetId
+                ? { ...question, type: newQuestionType, options: [] }
+                : question
+    );
+    return newArray;
 }
 
 /**
