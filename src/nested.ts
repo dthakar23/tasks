@@ -37,10 +37,14 @@ export function findQuestion(
     questions: Question[],
     id: number
 ): Question | null {
-    if (questions.filter((question: Question): boolean => question.id === id)) {
-        //return questions;
+    const found = questions.find(
+        (question: Question): boolean => question.id === id
+    );
+    if (found) {
+        return found.includes(id);
+    } else {
+        return null;
     }
-    return null;
 }
 
 /**
@@ -56,7 +60,10 @@ export function removeQuestion(questions: Question[], id: number): Question[] {
  * questions, as an array.
  */
 export function getNames(questions: Question[]): string[] {
-    return [];
+    const justNames = questions.map(
+        (question: Question): string => question.name
+    );
+    return justNames;
 }
 
 /***
