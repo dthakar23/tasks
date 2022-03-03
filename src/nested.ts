@@ -231,9 +231,29 @@ export function editOption(
     targetOptionIndex: number,
     newOption: string
 ): Question[] {
-    const newQuestions = [...questions];
-
-    return [];
+    //create copy of questions. find index where targetId is found. update the target question based off the index.
+    //check for targetOptionIndex and add option in accordingly
+    const newQuestions = [...questions]; //never modify original
+    const newQuestions2 = newQuestions.map(
+        (question: Question): Question => ({
+            ...question,
+            options:
+                targetOptionIndex === -1 && question.id === targetId
+                    ? [...question.options, newOption]
+                    : [...question.options]
+        })
+    );
+    if (targetOptionIndex !== -1) {
+        const targetIndex = newQuestions2.findIndex(
+            (question: Question): boolean => question.id === targetId
+        );
+        newQuestions2[targetIndex].options.splice(
+            targetOptionIndex,
+            1,
+            newOption
+        );
+    }
+    return newQuestions2;
 }
 
 /***
