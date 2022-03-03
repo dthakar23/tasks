@@ -1,7 +1,12 @@
 import { type } from "node:os";
+import { urlToHttpOptions } from "url";
 import { Answer } from "./interfaces/answer";
 import { Question, QuestionType } from "./interfaces/question";
-import { makeBlankQuestion, renameQuestion } from "./objects";
+import {
+    duplicateQuestion,
+    makeBlankQuestion,
+    renameQuestion
+} from "./objects";
 
 /**
  * Consumes an array of questions and returns a new array with only the questions
@@ -151,10 +156,14 @@ export function publishAll(questions: Question[]): Question[] {
  * are the same type. They can be any type, as long as they are all the SAME type.
  */
 export function sameType(questions: Question[]): boolean {
-    const sameTypeQ = questions.every(
-        (question: Question): boolean => question.type === question.type
+    if (questions.length === 0) {
+        return false;
+    }
+    const sameTypeQ = questions.filter(
+        (question: Question): boolean =>
+            question.type == "multiple_choice_question"
     );
-    return sameTypeQ;
+    return sameTypeQ.length === 0;
 }
 
 /***
@@ -225,7 +234,13 @@ export function editOption(
     targetId: number,
     targetOptionIndex: number,
     newOption: string
-) {
+): Question[] {
+    const questionsCopy = { ...questions };
+    if (targetOptionIndex === -1) {
+        //questionsCopy.map((question: Question): Question => question.id === targetId ? {...questionsCopy, options: [...options, newOption] } ): question);
+    } else {
+    }
+    //const newQuestions = questions.map((question: Question): Question => question.id === targetId ? );
     return [];
 }
 
@@ -240,5 +255,15 @@ export function duplicateQuestionInArray(
     targetId: number,
     newId: number
 ): Question[] {
-    return [];
+    const duplicateArray = [...questions];
+    const dupeIndex = duplicateArray.findIndex(
+        (dupeQuestion: Question): boolean => dupeQuestion.id === targetId
+    );
+    const duplicateArray2 = [...duplicateArray];
+    duplicateArray2.splice(
+        dupeIndex + 1,
+        0,
+        duplicateQuestion(newId, duplicateArray[dupeIndex])
+    );
+    return duplicateArray2;
 }
