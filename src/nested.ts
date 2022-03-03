@@ -157,9 +157,6 @@ export function publishAll(questions: Question[]): Question[] {
  */
 export function sameType(questions: Question[]): boolean {
     const sameTypeQ = [...questions]; //don't modify original array
-    if (questions.length === 0) {
-        return false;
-    }
     return sameTypeQ.every(
         (question: Question): boolean => question.type === sameTypeQ[0].type
     );
@@ -234,12 +231,8 @@ export function editOption(
     targetOptionIndex: number,
     newOption: string
 ): Question[] {
-    const questionsCopy = { ...questions };
-    if (targetOptionIndex === -1) {
-        //questionsCopy.map((question: Question): Question => question.id === targetId ? {...questionsCopy, options: [...options, newOption] } ): question);
-    } else {
-    }
-    //const newQuestions = questions.map((question: Question): Question => question.id === targetId ? );
+    const newQuestions = [...questions];
+
     return [];
 }
 
