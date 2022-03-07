@@ -43,11 +43,11 @@ export function CycleHoliday(): JSX.Element {
         setHoliday(finalHoliday);
     }
     const nextAlphaHoliday: Record<Holiday, Holiday> = {
-        Thanksgiving: "Holi",
-        Holi: "Halloween",
-        Halloween: "Diwali",
-        Diwali: "Christmas",
-        Christmas: "Thanksgiving"
+        Christmas: "Diwali",
+        Diwali: "Halloween",
+        Halloween: "Holi",
+        Holi: "Thanksgiving",
+        Thanksgiving: "Christmas"
     };
 
     return (

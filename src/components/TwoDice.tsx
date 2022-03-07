@@ -25,10 +25,12 @@ export function TwoDice(): JSX.Element {
                 <span data-testid="right-die">{rightRoll} </span>
             </div>
             <div>
-                {leftRoll === rightRoll && leftRoll !== 1 ? (
+                {leftRoll === rightRoll && leftRoll === 1 ? (
+                    <span>Aw, you Lose!</span>
+                ) : leftRoll === rightRoll ? (
                     <span>Yay, you Win!</span>
                 ) : (
-                    <span>Aw, you Lose!</span>
+                    <span>Keep playing!</span>
                 )}
             </div>
         </div>
