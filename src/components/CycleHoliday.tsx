@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Button } from "react-bootstrap";
-import { QuestionType } from "../interfaces/question";
 
 export function CycleHoliday(): JSX.Element {
     type Holiday =
