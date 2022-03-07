@@ -1,4 +1,3 @@
-import { check } from "prettier";
 import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 
