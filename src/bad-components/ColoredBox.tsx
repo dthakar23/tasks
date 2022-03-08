@@ -9,23 +9,22 @@ interface colorProps {
     setColorIndex: (newColor: number) => void;
 }
 
-function ChangeColor({colorIndex, setColorIndex}: colorProps): JSX.Element {
-    //const [colorIndex, setColorIndex] = useState<number>(DEFAULT_COLOR_INDEX);
+function ChangeColor({ colorIndex, setColorIndex }: colorProps): JSX.Element {
     return (
-        <Button onClick={() => setColorIndex((1 + colorIndex) % COLORS.length) && COLORS[setColorIndex]}>
+        <Button onClick={() => setColorIndex((1 + colorIndex) % COLORS.length)}>
             Next Color
         </Button>
     );
 }
 
-function ColorPreview({colorIndex, setColorIndex}: colorProps): JSX.Element {
+function ColorPreview({ colorIndex }: { colorIndex: number }): JSX.Element {
     return (
         <div
             data-testid="colored-box"
             style={{
                 width: "50px",
                 height: "50px",
-                backgroundColor: COLORS[DEFAULT_COLOR_INDEX],
+                backgroundColor: COLORS[colorIndex],
                 display: "inline-block",
                 verticalAlign: "bottom",
                 marginLeft: "5px"
@@ -35,13 +34,17 @@ function ColorPreview({colorIndex, setColorIndex}: colorProps): JSX.Element {
 }
 
 export function ColoredBox(): JSX.Element {
+    const [colorIndex, setColorIndex] = useState<number>(DEFAULT_COLOR_INDEX);
     return (
         <div>
             <h3>Colored Box</h3>
-            <span>The current color is: {COLORS[DEFAULT_COLOR_INDEX]}</span>
+            <span>The current color is: {COLORS[colorIndex]}</span>
             <div>
-                <ChangeColor {colorIndex, setColorIndex}={colorIndex, setColorIndex}></ChangeColor>
-                <ColorPreview {colorIndex, setColorIndex}={colorIndex, setColorIndex}></ColorPreview>
+                <ChangeColor
+                    colorIndex={colorIndex}
+                    setColorIndex={setColorIndex}
+                ></ChangeColor>
+                <ColorPreview colorIndex={colorIndex}></ColorPreview>
             </div>
         </div>
     );
