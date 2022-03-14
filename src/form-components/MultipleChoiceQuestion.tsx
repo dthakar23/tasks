@@ -31,8 +31,10 @@ export function MultipleChoiceQuestion({
                     ))}
                 </Form.Select>
             </Form.Group>
-            <option>Your answer is: </option>
-            {choice === expectedAnswer ? "✔️" : "❌"}
+            <div>
+                <option>Your answer is: </option>
+                {choice === expectedAnswer ? "✔️" : "❌"}
+            </div>
         </div>
     );
 }
