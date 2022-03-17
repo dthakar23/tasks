@@ -1,0 +1,255 @@
+[
+    {
+        "title": "Spongebob Squarepants Quiz",
+        "description": "How much do you know about the yellow sponge that lives in a pineapple under the sea and all his friends? Test your knowledge in this all-inclusive quiz about Bikini Bottom's most notorious residents!",
+        "questionTotal": 5,
+        "questions": [
+            {
+                "id": 1,
+                "name": "Spongebob Q1",
+                "body": "What is Spongebob's pet snail's name?",
+                "points": 2,
+                "type": "multiple_choice_question",
+                "options": ["Gary", "Bobby", "Lola"],
+                "expected": "Gary",
+                "published": false
+            },
+            {
+                "id": 2,
+                "name": "Spongebob Q2",
+                "body": "What is Plankton always trying to steal from Mr. Krabs?",
+                "points": 2,
+                "type": "multiple_choice_question",
+                "options": [
+                    "Money",
+                    "His daughter, Pearl",
+                    "Krabby Patty Secret Formula",
+                    "His house"
+                ],
+                "expected": "Krabby Patty Secret Formula",
+                "published": true
+            },
+            {
+                "id": 3,
+                "name": "Spongebob Q3",
+                "body": "What is the name of Spongebob's best friend?",
+                "points": 2,
+                "type": "multiple_choice_question",
+                "options": ["Squidward", "Pearl", "Sandy", "Patrick"],
+                "expected": "Patrick",
+                "published": true
+            },
+            {
+                "id": 4,
+                "name": "Spongebob Q4",
+                "body": "Sandy the squirrel is from which state?",
+                "points": 2,
+                "type": "short_answer",
+                "options": [],
+                "expected": "Texas",
+                "published": true
+            },
+            {
+                "id": 5,
+                "name": "Spongebob Q5",
+                "body": "What instrument does Squidward play?",
+                "points": 2,
+                "type": "multiple_choice_question",
+                "options": ["his voice", "tuba", "piccolo", "clarinet"],
+                "expected": "clarinet",
+                "published": true
+            }
+        ]
+    },
+    {
+        "title": "Elementary School Topics Quiz",
+        "description": "Are you smarter than a fifth grader? Come take this short quiz to see!",
+        "questionTotal": 5,
+        "questions": [
+            {
+                "id": 1,
+                "name": "Elementary Q1",
+                "body": "What is 2+2?",
+                "points": 2,
+                "type": "short_answer",
+                "options": [],
+                "expected": "4",
+                "published": true
+            },
+            {
+                "id": 2,
+                "name": "Elementary Q2",
+                "body": "Was Johnny Appleseed real or a myth?",
+                "points": 2,
+                "type": "multiple_choice_question",
+                "options": ["real", "myth"],
+                "expected": "myth",
+                "published": true
+            },
+            {
+                "id": 3,
+                "name": "Elementary Q3",
+                "body": "Does 9*9?",
+                "points": 2,
+                "type": "short_answer",
+                "options": [],
+                "expected": "81",
+                "published": true
+            },
+            {
+                "id": 4,
+                "name": "Elementary Q4",
+                "body": "What are the three types of rocks?",
+                "points": 2,
+                "type": "multiple_choice_question",
+                "options": [
+                    "sedimentary, metamorphic, igneous",
+                    "sedimentary, calcific, metamorphism",
+                    "ignacious, tectonitricism, limestone"
+                ],
+                "expected": "sedimentary, metamorphic, igneous",
+                "published": true
+            },
+            {
+                "id": 5,
+                "name": "Elementary Q5",
+                "body": "What part of speech is 'under'?",
+                "points": 2,
+                "type": "multiple_choice_question",
+                "options": [
+                    "action verb",
+                    "proper noun",
+                    "preposition",
+                    "conjunction"
+                ],
+                "expected": "preposition",
+                "published": true
+            }
+        ]
+    },
+    {
+        "title": "Random Yes/No Quiz",
+        "description": "Do you know yes or no to these random facts? I sure hope so! Come take this quiz and find out!",
+        "questionTotal": 3,
+        "questions": [
+            {
+                "id": 1,
+                "name": "Random Q1",
+                "body": "Does a platypus lay eggs?",
+                "points": 2,
+                "type": "multiple_choice_question",
+                "options": ["yes", "no"],
+                "expected": "yes",
+                "published": true
+            },
+            {
+                "id": 2,
+                "name": "Random Q2",
+                "body": "What came first? The chicken or the egg?",
+                "points": 2,
+                "type": "short_answer",
+                "options": [],
+                "expected": "lolz I don't know",
+                "published": true
+            },
+            {
+                "id": 3,
+                "name": "Random Q3",
+                "body": "Who was Dobby the Elf's master?",
+                "points": 1,
+                "type": "multiple_choice_question",
+                "options": [
+                    "Harry Potter",
+                    "Bellatrix Lestrange",
+                    "Lucius Malfoy"
+                ],
+                "expected": "Lucius Malfoy",
+                "published": true
+            }
+        ]
+    },
+    {
+        "title": "Delaware Facts Quiz",
+        "description": "Test how much you know about the first state in the Union!",
+        "questionTotal": 3,
+        "questions": [
+            {
+                "id": 1,
+                "name": "Delaware Q1",
+                "body": "Does Delaware charge sales tax?",
+                "points": 2,
+                "type": "multiple_choice_question",
+                "options": ["yes", "no"],
+                "expected": "no",
+                "published": true
+            },
+            {
+                "id": 2,
+                "name": "Delaware Q2",
+                "body": "What is the state bird?",
+                "points": 1,
+                "type": "multiple_choice_question",
+                "options": ["Sparrow", "Blue Hen", "Cardinal"],
+                "expected": "Blue Hen",
+                "published": true
+            },
+            {
+                "id": 3,
+                "name": "Delaware Q3",
+                "body": "Which European country first colonized Delaware?",
+                "points": 2,
+                "type": "multiple_choice_question",
+                "options": ["England", "Spain", "Sweden", "Portugal"],
+                "expected": "Sweden",
+                "published": true
+            }
+        ]
+    },
+    {
+        "title": "Color Theory Quiz",
+        "description": "Let's see how much you know about color mixing!",
+        "questionTotal": 4,
+        "questions": [
+            {
+                "id": 1,
+                "name": "Colors Q1",
+                "body": "What does yellow mixed with red make?",
+                "points": 2,
+                "type": "short_answer",
+                "options": [],
+                "expected": "orange",
+                "published": false
+            },
+            {
+                "id": 2,
+                "name": "Colors Q2",
+                "body": "Are red, yellow, and blue primary colors or secondary colors?",
+                "points": 2,
+                "type": "multiple_choice_question",
+                "options": ["secondary", "primary"],
+                "expected": "primary",
+                "published": true
+            },
+            {
+                "id": 3,
+                "name": "Colors Q3",
+                "body": "What color do you get when you mix all the colors of the wheel?",
+                "points": 3,
+                "type": "multiple_choice_question",
+                "options": ["brown", "black", "white", "nothing"],
+                "expected": "brown",
+                "published": true
+            },
+            {
+                "id": 4,
+                "name": "Colors Q4",
+                "body": "What is the absence of all colors?",
+                "points": 3,
+                "type": "short_answer",
+                "options": [],
+                "expected": "black",
+                "published": true
+            }
+        ]
+    }
+]
