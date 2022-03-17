@@ -23,7 +23,12 @@ function App(): JSX.Element {
             <header className="Quizzer-header">Quizzer</header>
             <Quizzer></Quizzer>
             <h6>Completed Features:</h6>
-            <ul></ul>
+            <ul>
+                <li>
+                    Users can see a list of quizzes, including the quizzes
+                    title, description, and how many questions it has
+                </li>
+            </ul>
             <img src={sketch} alt="My Quizzer Sketch"></img>
             <hr></hr>
             <header className="App-header">
