@@ -1,7 +1,7 @@
 [
     {
         "title": "Spongebob Squarepants Quiz",
-        "description": "How much do you know about the yellow sponge that lives in a pineapple under the sea and all his friends? Test your knowledge in this all-inclusive quiz about Bikini Bottom's most notorious residents!",
+        "description": "How much do you know about the yellow sponge that lives in a pineapple under the sea and all his friends? Test your knowledge in this all-inclusive quiz about Bikini Bottom's most notorious residents! ",
         "questionTotal": 5,
         "questions": [
             {
@@ -63,7 +63,7 @@
     },
     {
         "title": "Elementary School Topics Quiz",
-        "description": "Are you smarter than a fifth grader? Come take this short quiz to see!",
+        "description": "Are you smarter than a fifth grader? Come take this short quiz to see! ",
         "questionTotal": 5,
         "questions": [
             {
@@ -129,7 +129,7 @@
     },
     {
         "title": "Random Yes/No Quiz",
-        "description": "Do you know yes or no to these random facts? I sure hope so! Come take this quiz and find out!",
+        "description": "Do you know yes or no to these random facts? I sure hope so! Come take this quiz and find out! ",
         "questionTotal": 3,
         "questions": [
             {
@@ -170,7 +170,7 @@
     },
     {
         "title": "Delaware Facts Quiz",
-        "description": "Test how much you know about the first state in the Union!",
+        "description": "Test how much you know about the first state in the Union! ",
         "questionTotal": 3,
         "questions": [
             {
@@ -207,7 +207,7 @@
     },
     {
         "title": "Color Theory Quiz",
-        "description": "Let's see how much you know about color mixing!",
+        "description": "Let's see how much you know about color mixing! ",
         "questionTotal": 4,
         "questions": [
             {
