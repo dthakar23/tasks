@@ -1,7 +1,7 @@
 import { Quiz } from "../quizzerinterfaces/quiz";
 import React from "react";
-import { useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+//import { useState } from "react";
+//import { Col, Container, Row } from "react-bootstrap";
 
 export function QuizView({
     quiz
@@ -12,7 +12,7 @@ export function QuizView({
     //deleteQuiz: (title: string) => void;
     //editQuiz: (title: string, newQuiz: Quiz) => void;
 }): JSX.Element {
-    const [visible, setVisible] = useState<boolean>(false);
+    //const [visible, setVisible] = useState<boolean>(false);
 
     /*function changeEditing(){
         setEditing(!editing);
