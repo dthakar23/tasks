@@ -15,17 +15,25 @@ import { EditMode } from "./form-components/EditMode";
 import { MultipleChoiceQuestion } from "./form-components/MultipleChoiceQuestion";
 import { ChangeColor } from "./form-components/ChangeColor";
 import { Quizzer } from "./quizzer/Quizzer";
-import { ShowHideTasks } from "./quizzer/ShowHideAppTasks";
+import sketch from "./assets/sketch.png";
 
 function App(): JSX.Element {
     return (
         <div className="App">
+            <header className="Quizzer-header">Quizzer</header>
+            <Quizzer></Quizzer>
+            <h6>Completed Features:</h6>
+            <ul>
+                <li>
+                    Users can see a list of quizzes, including the quizzes
+                    title, description, and how many questions it has
+                </li>
+            </ul>
+            <img src={sketch} alt="My Quizzer Sketch"></img>
+            <hr></hr>
             <header className="App-header">
                 Disha Thakar: UD CISC275 with React Hooks and TypeScript
             </header>
-            <Quizzer></Quizzer>
-            <ShowHideTasks></ShowHideTasks>
-            <hr></hr>
             <CheckAnswer expectedAnswer="42"></CheckAnswer>
             <hr></hr>
             <GiveAttempts></GiveAttempts>

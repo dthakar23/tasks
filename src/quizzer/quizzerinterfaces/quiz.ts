@@ -1,8 +1,8 @@
 import { QuizQuestion } from "./quizquestion";
 
 export interface Quiz {
-    title: string;
-    description: string;
-    questionTotal: number;
-    questions: QuizQuestion[];
+    title: string; //name of quiz
+    description: string; //what quiz is on
+    questionTotal: number; //how many questions in quiz
+    questions: QuizQuestion[]; //the actual questions in the quiz
 }
