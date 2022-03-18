@@ -7,9 +7,9 @@ export function QuestionView({
 }): JSX.Element {
     return (
         <div>
-            <p>{question.name}</p>
+            <h4>{question.name}</h4>
             <div>
-                <h6>{question.body}</h6>
+                <h5>{question.body}</h5>
                 <h6>{"Question points: " + question.points}</h6>
             </div>
         </div>
