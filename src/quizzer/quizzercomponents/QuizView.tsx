@@ -10,6 +10,7 @@ export function QuizView({ quiz }: { quiz: Quiz }): JSX.Element {
     function viewQuiz(): void {
         setVisible(!visible);
     }
+
     return (
         <div>
             <p>{quiz.title}</p>
@@ -18,10 +19,13 @@ export function QuizView({ quiz }: { quiz: Quiz }): JSX.Element {
             <div>
                 <Button onClick={viewQuiz}>Open/Close</Button>
             </div>
-            <div></div>
-            <Col>
-                <QuestionList questions={quiz.questions}></QuestionList>
-            </Col>
+            <div>
+                {visible ? (
+                    <QuestionList questions={quiz.questions}></QuestionList>
+                ) : (
+                    <Col></Col>
+                )}
+            </div>
         </div>
     );
 }
