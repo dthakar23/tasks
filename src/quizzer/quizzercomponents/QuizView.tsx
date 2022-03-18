@@ -13,13 +13,12 @@ export function QuizView({ quiz }: { quiz: Quiz }): JSX.Element {
     return (
         <div>
             <p>{quiz.title}</p>
+            <h4>{"Total Questions: " + quiz.questionTotal}</h4>
+            <h6>{quiz.description}</h6>
             <div>
                 <Button onClick={viewQuiz}>Open/Close</Button>
             </div>
-            <div>
-                <h6>{quiz.description}</h6>
-                <h6>{"Total Questions: " + quiz.questionTotal}</h6>
-            </div>
+            <div></div>
             <Col>
                 <QuestionList questions={quiz.questions}></QuestionList>
             </Col>
