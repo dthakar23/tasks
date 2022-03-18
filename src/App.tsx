@@ -28,7 +28,10 @@ function App(): JSX.Element {
                     Users can see a list of quizzes, including the quizzes
                     title, description, and how many questions it has
                 </li>
-                <li></li>
+                <li>
+                    Users can select a specific quiz to see the questions,
+                    including the question’s name, body, and points
+                </li>
             </ul>
             <img src={sketch} alt="My Quizzer Sketch"></img>
             <hr></hr>
