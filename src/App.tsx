@@ -28,6 +28,7 @@ function App(): JSX.Element {
                     Users can see a list of quizzes, including the quizzes
                     title, description, and how many questions it has
                 </li>
+                <li></li>
             </ul>
             <img src={sketch} alt="My Quizzer Sketch"></img>
             <hr></hr>
