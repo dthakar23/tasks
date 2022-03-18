@@ -15,7 +15,7 @@ import { EditMode } from "./form-components/EditMode";
 import { MultipleChoiceQuestion } from "./form-components/MultipleChoiceQuestion";
 import { ChangeColor } from "./form-components/ChangeColor";
 import { Quizzer } from "./quizzer/Quizzer";
-import sketch from "./assets/sketch.png";
+import sketch from "/Users/dishathakar/tasks/src/quizzer/assets/sketch.png";
 
 function App(): JSX.Element {
     return (
