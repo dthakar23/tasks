@@ -3,7 +3,7 @@ import React from "react";
 import { QuizList } from "./quizzercomponents/QuizList";
 import { Quiz } from "./quizzerinterfaces/quiz";
 //import { QuizQuestion } from "./quizzerinterfaces/quizquestion";
-import myQuizzes from "/Users/dishathakar/tasks/src/quizzer/quizData.json";
+import myQuizzes from "../quizzer/quizData.json";
 
 const allQuizzes = myQuizzes.map((myquiz): Quiz => ({ ...myquiz }));
 
