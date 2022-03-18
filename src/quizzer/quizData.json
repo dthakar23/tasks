@@ -89,7 +89,7 @@
             {
                 "id": 3,
                 "name": "Elementary Q3",
-                "body": "Does 9*9?",
+                "body": "What does 9*9 equal?",
                 "points": 2,
                 "type": "short_answer",
                 "options": [],
