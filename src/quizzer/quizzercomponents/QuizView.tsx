@@ -4,6 +4,10 @@ import { useState } from "react";
 import { Button, Col } from "react-bootstrap";
 import { QuestionList } from "./QuestionList";
 
+type ChangeEvent = React.ChangeEvent<
+    HTMLTextAreaElement | HTMLInputElement | HTMLSelectElement
+>;
+
 export function QuizView({ quiz }: { quiz: Quiz }): JSX.Element {
     const [visible, setVisible] = useState<boolean>(false);
 
