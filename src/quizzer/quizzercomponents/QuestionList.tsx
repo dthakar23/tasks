@@ -11,9 +11,9 @@ export function QuestionList({
     return (
         <Stack gap={3}>
             {questions.map((question: QuizQuestion) => (
-                <div key={question.name}>
+                <h5 key={question.name}>
                     <QuestionView question={question}></QuestionView>
-                </div>
+                </h5>
             ))}
         </Stack>
     );
