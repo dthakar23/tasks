@@ -46,7 +46,7 @@ PASS src/App.test.tsx
 -------------------------------|---------|----------|---------|---------|-------------------
 File                           | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 -------------------------------|---------|----------|---------|---------|-------------------
-All files                      |   99.27 |    97.95 |   99.23 |   99.25 |                   
+All files                      |   96.07 |     91.5 |   94.77 |   95.97 |                   
  src                           |    99.4 |    98.38 |     100 |   99.39 |                   
   App.tsx                      |     100 |      100 |     100 |     100 |                   
   arrays.ts                    |   98.27 |    95.23 |     100 |   98.14 | 95                
@@ -76,11 +76,11 @@ All files                      |   99.27 |    97.95 |   99.23 |   99.25 |
   question.ts                  |       0 |        0 |       0 |       0 |                   
  src/quizzer                   |     100 |      100 |     100 |     100 |                   
   Quizzer.tsx                  |     100 |      100 |     100 |     100 |                   
- src/quizzer/quizzercomponents |    87.5 |      100 |   85.71 |    87.5 |                   
-  QuestionList.tsx             |     100 |      100 |     100 |     100 |                   
-  QuestionView.tsx             |     100 |      100 |     100 |     100 |                   
+ src/quizzer/quizzercomponents |   28.57 |     12.5 |      30 |   28.57 |                   
+  QuestionList.tsx             |       0 |      100 |       0 |       0 | 11-14             
+  QuestionView.tsx             |       0 |        0 |       0 |       0 | 14-54             
   QuizList.tsx                 |     100 |      100 |     100 |     100 |                   
-  QuizView.tsx                 |   66.66 |      100 |      50 |   66.66 | 11                
+  QuizView.tsx                 |   66.66 |       50 |      50 |   66.66 | 11                
  src/quizzer/quizzerinterfaces |       0 |        0 |       0 |       0 |                   
   quiz.ts                      |       0 |        0 |       0 |       0 |                   
   quizquestion.ts              |       0 |        0 |       0 |       0 |                   
@@ -89,5 +89,5 @@ All files                      |   99.27 |    97.95 |   99.23 |   99.25 |
 Test Suites: 21 passed, 21 total
 Tests:       135 passed, 135 total
 Snapshots:   0 total
-Time:        11.646 s
+Time:        11.441 s
 Ran all test suites.
