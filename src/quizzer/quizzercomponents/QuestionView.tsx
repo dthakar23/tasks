@@ -8,8 +8,10 @@ type ChangeEvent = React.ChangeEvent<
 
 export function QuestionView({
     question
-}: {
+}: //addPoints
+{
     question: QuizQuestion;
+    //addPoints: (addPoints: number) => void;
 }): JSX.Element {
     const [givenAnswer, setGivenAnswer] = useState<string>("");
     const [choice, setChoice] = useState<string>(question.options[0]);
