@@ -5,6 +5,2317 @@
 PASS src/nested.test.ts
 PASS src/arrays.test.ts
 PASS src/objects.test.ts
+FAIL src/quizzer/Quizzer.test.tsx
+  ● Quizzer Tests › Quizzes Are Visible
+
+    TestingLibraryElementError: Unable to find an element with the text: How much do you know about the yellow sponge that lives in a pineapple under the sea and all his friends? Test your knowledge in this all-inclusive quiz about Bikini Bottom's most notorious residents! . This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<h3>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"vstack gap-3"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mSpongebob Squarepants Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mHow much do you know about the yellow sponge that lives in a pineapple under the sea and all his friends? Test your knowledge in this all-inclusive quiz about Bikini Bottom's most notorious residents! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mElementary School Topics Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mAre you smarter than a fifth grader? Come take this short quiz to see! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mRandom Yes/No Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mDo you know yes or no to these random facts? I sure hope so! Come take this quiz and find out! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mDelaware Facts Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mTest how much you know about the first state in the Union! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mColor Theory Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 4[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mLet's see how much you know about color mixing! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</h3>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+      15 |         expect(screen.getByText(myQuizzes[4].title)).toBeInTheDocument();
+      16 |
+    > 17 |         expect(screen.getByText(myQuizzes[0].description)).toBeInTheDocument();
+         |                       ^
+      18 |         expect(screen.getByText(myQuizzes[1].description)).toBeInTheDocument();
+      19 |         expect(screen.getByText(myQuizzes[2].description)).toBeInTheDocument();
+      20 |         expect(screen.getByText(myQuizzes[3].description)).toBeInTheDocument();
+
+      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:38:19)
+      at node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+      at node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByText (node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/quizzer/Quizzer.test.tsx:17:23)
+
+  ● Quizzer Tests › Quizzes Have Questions › Quiz 1
+
+    TestingLibraryElementError: Unable to find an element with the text: Spongebob Q1. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<h3>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"vstack gap-3"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mSpongebob Squarepants Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mHow much do you know about the yellow sponge that lives in a pineapple under the sea and all his friends? Test your knowledge in this all-inclusive quiz about Bikini Bottom's most notorious residents! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mElementary School Topics Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mAre you smarter than a fifth grader? Come take this short quiz to see! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mRandom Yes/No Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mDo you know yes or no to these random facts? I sure hope so! Come take this quiz and find out! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mDelaware Facts Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mTest how much you know about the first state in the Union! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mColor Theory Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 4[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mLet's see how much you know about color mixing! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</h3>[39m
+      [36m</div>[39m
+      [36m<div>[39m
+        [36m<h3>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"vstack gap-3"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mSpongebob Squarepants Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mHow much do you know about the yellow sponge that lives in a pineapple under the sea and all his friends? Test your knowledge in this all-inclusive quiz about Bikini Bottom's most notorious residents! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mElementary School Topics Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mAre you smarter than a fifth grader? Come take this short quiz to see! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mRandom Yes/No Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mDo you know yes or no to these random facts? I sure hope so! Come take this quiz and find out! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mDelaware Facts Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mTest how much you know about the first state in the Union! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mColor Theory Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 4[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mLet's see how much you know about color mixing! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</h3>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+      33 |         test("Quiz 1", () => {
+      34 |             expect(
+    > 35 |                 screen.getByText(myQuizzes[0].questions[0].name)
+         |                        ^
+      36 |             ).toBeInTheDocument();
+      37 |             expect(
+      38 |                 screen.getByText(myQuizzes[0].questions[1].name)
+
+      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:38:19)
+      at node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+      at node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByText (node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/quizzer/Quizzer.test.tsx:35:24)
+
+  ● Quizzer Tests › Quizzes Have Questions › Quiz 2
+
+    TestingLibraryElementError: Unable to find an element with the text: Elementary Q1. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<h3>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"vstack gap-3"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mSpongebob Squarepants Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mHow much do you know about the yellow sponge that lives in a pineapple under the sea and all his friends? Test your knowledge in this all-inclusive quiz about Bikini Bottom's most notorious residents! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mElementary School Topics Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mAre you smarter than a fifth grader? Come take this short quiz to see! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mRandom Yes/No Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mDo you know yes or no to these random facts? I sure hope so! Come take this quiz and find out! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mDelaware Facts Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mTest how much you know about the first state in the Union! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mColor Theory Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 4[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mLet's see how much you know about color mixing! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</h3>[39m
+      [36m</div>[39m
+      [36m<div>[39m
+        [36m<h3>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"vstack gap-3"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mSpongebob Squarepants Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mHow much do you know about the yellow sponge that lives in a pineapple under the sea and all his friends? Test your knowledge in this all-inclusive quiz about Bikini Bottom's most notorious residents! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mElementary School Topics Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mAre you smarter than a fifth grader? Come take this short quiz to see! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mRandom Yes/No Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mDo you know yes or no to these random facts? I sure hope so! Come take this quiz and find out! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mDelaware Facts Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mTest how much you know about the first state in the Union! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mColor Theory Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 4[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mLet's see how much you know about color mixing! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</h3>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+      80 |         test("Quiz 2", () => {
+      81 |             expect(
+    > 82 |                 screen.getByText(myQuizzes[1].questions[0].name)
+         |                        ^
+      83 |             ).toBeInTheDocument();
+      84 |             expect(
+      85 |                 screen.getByText(myQuizzes[1].questions[1].name)
+
+      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:38:19)
+      at node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+      at node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByText (node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/quizzer/Quizzer.test.tsx:82:24)
+
+  ● Quizzer Tests › Quizzes Have Questions › Quiz 3
+
+    TestingLibraryElementError: Unable to find an element with the text: Random Q1. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<h3>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"vstack gap-3"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mSpongebob Squarepants Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mHow much do you know about the yellow sponge that lives in a pineapple under the sea and all his friends? Test your knowledge in this all-inclusive quiz about Bikini Bottom's most notorious residents! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mElementary School Topics Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mAre you smarter than a fifth grader? Come take this short quiz to see! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mRandom Yes/No Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mDo you know yes or no to these random facts? I sure hope so! Come take this quiz and find out! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mDelaware Facts Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mTest how much you know about the first state in the Union! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mColor Theory Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 4[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mLet's see how much you know about color mixing! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</h3>[39m
+      [36m</div>[39m
+      [36m<div>[39m
+        [36m<h3>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"vstack gap-3"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mSpongebob Squarepants Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mHow much do you know about the yellow sponge that lives in a pineapple under the sea and all his friends? Test your knowledge in this all-inclusive quiz about Bikini Bottom's most notorious residents! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mElementary School Topics Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mAre you smarter than a fifth grader? Come take this short quiz to see! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mRandom Yes/No Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mDo you know yes or no to these random facts? I sure hope so! Come take this quiz and find out! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mDelaware Facts Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mTest how much you know about the first state in the Union! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mColor Theory Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 4[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mLet's see how much you know about color mixing! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</h3>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+      127 |         test("Quiz 3", () => {
+      128 |             expect(
+    > 129 |                 screen.getByText(myQuizzes[2].questions[0].name)
+          |                        ^
+      130 |             ).toBeInTheDocument();
+      131 |             expect(
+      132 |                 screen.getByText(myQuizzes[2].questions[1].name)
+
+      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:38:19)
+      at node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+      at node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByText (node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/quizzer/Quizzer.test.tsx:129:24)
+
+  ● Quizzer Tests › Quizzes Have Questions › Quiz 4
+
+    TestingLibraryElementError: Unable to find an element with the text: Delaware Q1. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<h3>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"vstack gap-3"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mSpongebob Squarepants Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mHow much do you know about the yellow sponge that lives in a pineapple under the sea and all his friends? Test your knowledge in this all-inclusive quiz about Bikini Bottom's most notorious residents! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mElementary School Topics Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mAre you smarter than a fifth grader? Come take this short quiz to see! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mRandom Yes/No Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mDo you know yes or no to these random facts? I sure hope so! Come take this quiz and find out! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mDelaware Facts Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mTest how much you know about the first state in the Union! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mColor Theory Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 4[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mLet's see how much you know about color mixing! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</h3>[39m
+      [36m</div>[39m
+      [36m<div>[39m
+        [36m<h3>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"vstack gap-3"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mSpongebob Squarepants Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mHow much do you know about the yellow sponge that lives in a pineapple under the sea and all his friends? Test your knowledge in this all-inclusive quiz about Bikini Bottom's most notorious residents! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mElementary School Topics Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mAre you smarter than a fifth grader? Come take this short quiz to see! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mRandom Yes/No Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mDo you know yes or no to these random facts? I sure hope so! Come take this quiz and find out! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mDelaware Facts Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mTest how much you know about the first state in the Union! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mColor Theory Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 4[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mLet's see how much you know about color mixing! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</h3>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+      156 |         test("Quiz 4", () => {
+      157 |             expect(
+    > 158 |                 screen.getByText(myQuizzes[3].questions[0].name)
+          |                        ^
+      159 |             ).toBeInTheDocument();
+      160 |             expect(
+      161 |                 screen.getByText(myQuizzes[3].questions[1].name)
+
+      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:38:19)
+      at node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+      at node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByText (node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/quizzer/Quizzer.test.tsx:158:24)
+
+  ● Quizzer Tests › Quizzes Have Questions › Quiz 5
+
+    TestingLibraryElementError: Unable to find an element with the text: Colors Q1. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<h3>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"vstack gap-3"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mSpongebob Squarepants Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mHow much do you know about the yellow sponge that lives in a pineapple under the sea and all his friends? Test your knowledge in this all-inclusive quiz about Bikini Bottom's most notorious residents! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mElementary School Topics Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mAre you smarter than a fifth grader? Come take this short quiz to see! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mRandom Yes/No Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mDo you know yes or no to these random facts? I sure hope so! Come take this quiz and find out! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mDelaware Facts Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mTest how much you know about the first state in the Union! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mColor Theory Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 4[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mLet's see how much you know about color mixing! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</h3>[39m
+      [36m</div>[39m
+      [36m<div>[39m
+        [36m<h3>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"vstack gap-3"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mSpongebob Squarepants Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mHow much do you know about the yellow sponge that lives in a pineapple under the sea and all his friends? Test your knowledge in this all-inclusive quiz about Bikini Bottom's most notorious residents! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mElementary School Topics Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mAre you smarter than a fifth grader? Come take this short quiz to see! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mRandom Yes/No Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mDo you know yes or no to these random facts? I sure hope so! Come take this quiz and find out! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mDelaware Facts Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mTest how much you know about the first state in the Union! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mColor Theory Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 4[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mLet's see how much you know about color mixing! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</h3>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+      185 |         test("Quiz 5", () => {
+      186 |             expect(
+    > 187 |                 screen.getByText(myQuizzes[4].questions[0].name)
+          |                        ^
+      188 |             ).toBeInTheDocument();
+      189 |             expect(
+      190 |                 screen.getByText(myQuizzes[4].questions[1].name)
+
+      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:38:19)
+      at node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+      at node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByText (node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/quizzer/Quizzer.test.tsx:187:24)
+
 PASS src/components/StartAttempt.test.tsx
 PASS src/components/TwoDice.test.tsx
 PASS src/form-components/MultipleChoiceQuestion.test.tsx
@@ -41,12 +2352,11 @@ PASS src/components/Counter.test.tsx
 PASS src/components/RevealAnswer.test.tsx
 PASS src/bad-components/ColoredBox.test.tsx
 PASS src/bad-components/ShoveBox.test.tsx
-PASS src/quizzer/Quizzer.test.tsx
 PASS src/App.test.tsx
 -------------------------------|---------|----------|---------|---------|-------------------
 File                           | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 -------------------------------|---------|----------|---------|---------|-------------------
-All files                      |   96.07 |     91.5 |   94.77 |   95.97 |                   
+All files                      |    92.2 |     87.5 |   87.58 |   92.33 |                   
  src                           |    99.4 |    98.38 |     100 |   99.39 |                   
   App.tsx                      |     100 |      100 |     100 |     100 |                   
   arrays.ts                    |   98.27 |    95.23 |     100 |   98.14 | 95                
@@ -74,20 +2384,2335 @@ All files                      |   96.07 |     91.5 |   94.77 |   95.97 |
  src/interfaces                |       0 |        0 |       0 |       0 |                   
   answer.ts                    |       0 |        0 |       0 |       0 |                   
   question.ts                  |       0 |        0 |       0 |       0 |                   
- src/quizzer                   |     100 |      100 |     100 |     100 |                   
-  Quizzer.tsx                  |     100 |      100 |     100 |     100 |                   
- src/quizzer/quizzercomponents |   28.57 |     12.5 |      30 |   28.57 |                   
-  QuestionList.tsx             |       0 |      100 |       0 |       0 | 11-14             
-  QuestionView.tsx             |       0 |        0 |       0 |       0 | 14-54             
+ src/quizzer                   |   66.66 |      100 |      50 |      75 |                   
+  Quizzer.tsx                  |   66.66 |      100 |      50 |      75 | 14                
+ src/quizzer/quizzercomponents |   23.07 |    14.28 |   15.78 |   23.07 |                   
+  QuestionEdit.tsx             |       0 |      100 |       0 |       0 | 14-18             
+  QuestionList.tsx             |       0 |      100 |       0 |       0 | 15-18             
+  QuestionView.tsx             |       0 |        0 |       0 |       0 | 19-92             
+  QuizEdit.tsx                 |       0 |      100 |       0 |       0 | 16-23             
   QuizList.tsx                 |     100 |      100 |     100 |     100 |                   
-  QuizView.tsx                 |   66.66 |       50 |      50 |   66.66 | 11                
+  QuizView.tsx                 |   57.14 |       50 |      25 |   57.14 | 23-31             
  src/quizzer/quizzerinterfaces |       0 |        0 |       0 |       0 |                   
   quiz.ts                      |       0 |        0 |       0 |       0 |                   
   quizquestion.ts              |       0 |        0 |       0 |       0 |                   
 -------------------------------|---------|----------|---------|---------|-------------------
 
-Test Suites: 21 passed, 21 total
-Tests:       135 passed, 135 total
+Summary of all failing tests
+FAIL src/quizzer/Quizzer.test.tsx
+  ● Quizzer Tests › Quizzes Are Visible
+
+    TestingLibraryElementError: Unable to find an element with the text: How much do you know about the yellow sponge that lives in a pineapple under the sea and all his friends? Test your knowledge in this all-inclusive quiz about Bikini Bottom's most notorious residents! . This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<h3>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"vstack gap-3"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mSpongebob Squarepants Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mHow much do you know about the yellow sponge that lives in a pineapple under the sea and all his friends? Test your knowledge in this all-inclusive quiz about Bikini Bottom's most notorious residents! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mElementary School Topics Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mAre you smarter than a fifth grader? Come take this short quiz to see! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mRandom Yes/No Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mDo you know yes or no to these random facts? I sure hope so! Come take this quiz and find out! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mDelaware Facts Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mTest how much you know about the first state in the Union! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mColor Theory Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 4[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mLet's see how much you know about color mixing! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</h3>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+      15 |         expect(screen.getByText(myQuizzes[4].title)).toBeInTheDocument();
+      16 |
+    > 17 |         expect(screen.getByText(myQuizzes[0].description)).toBeInTheDocument();
+         |                       ^
+      18 |         expect(screen.getByText(myQuizzes[1].description)).toBeInTheDocument();
+      19 |         expect(screen.getByText(myQuizzes[2].description)).toBeInTheDocument();
+      20 |         expect(screen.getByText(myQuizzes[3].description)).toBeInTheDocument();
+
+      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:38:19)
+      at node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+      at node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByText (node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/quizzer/Quizzer.test.tsx:17:23)
+
+  ● Quizzer Tests › Quizzes Have Questions › Quiz 1
+
+    TestingLibraryElementError: Unable to find an element with the text: Spongebob Q1. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<h3>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"vstack gap-3"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mSpongebob Squarepants Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mHow much do you know about the yellow sponge that lives in a pineapple under the sea and all his friends? Test your knowledge in this all-inclusive quiz about Bikini Bottom's most notorious residents! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mElementary School Topics Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mAre you smarter than a fifth grader? Come take this short quiz to see! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mRandom Yes/No Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mDo you know yes or no to these random facts? I sure hope so! Come take this quiz and find out! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mDelaware Facts Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mTest how much you know about the first state in the Union! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mColor Theory Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 4[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mLet's see how much you know about color mixing! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</h3>[39m
+      [36m</div>[39m
+      [36m<div>[39m
+        [36m<h3>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"vstack gap-3"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mSpongebob Squarepants Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mHow much do you know about the yellow sponge that lives in a pineapple under the sea and all his friends? Test your knowledge in this all-inclusive quiz about Bikini Bottom's most notorious residents! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mElementary School Topics Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mAre you smarter than a fifth grader? Come take this short quiz to see! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mRandom Yes/No Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mDo you know yes or no to these random facts? I sure hope so! Come take this quiz and find out! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mDelaware Facts Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mTest how much you know about the first state in the Union! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mColor Theory Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 4[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mLet's see how much you know about color mixing! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</h3>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+      33 |         test("Quiz 1", () => {
+      34 |             expect(
+    > 35 |                 screen.getByText(myQuizzes[0].questions[0].name)
+         |                        ^
+      36 |             ).toBeInTheDocument();
+      37 |             expect(
+      38 |                 screen.getByText(myQuizzes[0].questions[1].name)
+
+      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:38:19)
+      at node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+      at node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByText (node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/quizzer/Quizzer.test.tsx:35:24)
+
+  ● Quizzer Tests › Quizzes Have Questions › Quiz 2
+
+    TestingLibraryElementError: Unable to find an element with the text: Elementary Q1. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<h3>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"vstack gap-3"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mSpongebob Squarepants Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mHow much do you know about the yellow sponge that lives in a pineapple under the sea and all his friends? Test your knowledge in this all-inclusive quiz about Bikini Bottom's most notorious residents! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mElementary School Topics Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mAre you smarter than a fifth grader? Come take this short quiz to see! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mRandom Yes/No Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mDo you know yes or no to these random facts? I sure hope so! Come take this quiz and find out! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mDelaware Facts Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mTest how much you know about the first state in the Union! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mColor Theory Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 4[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mLet's see how much you know about color mixing! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</h3>[39m
+      [36m</div>[39m
+      [36m<div>[39m
+        [36m<h3>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"vstack gap-3"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mSpongebob Squarepants Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mHow much do you know about the yellow sponge that lives in a pineapple under the sea and all his friends? Test your knowledge in this all-inclusive quiz about Bikini Bottom's most notorious residents! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mElementary School Topics Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mAre you smarter than a fifth grader? Come take this short quiz to see! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mRandom Yes/No Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mDo you know yes or no to these random facts? I sure hope so! Come take this quiz and find out! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mDelaware Facts Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mTest how much you know about the first state in the Union! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mColor Theory Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 4[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mLet's see how much you know about color mixing! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</h3>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+      80 |         test("Quiz 2", () => {
+      81 |             expect(
+    > 82 |                 screen.getByText(myQuizzes[1].questions[0].name)
+         |                        ^
+      83 |             ).toBeInTheDocument();
+      84 |             expect(
+      85 |                 screen.getByText(myQuizzes[1].questions[1].name)
+
+      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:38:19)
+      at node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+      at node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByText (node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/quizzer/Quizzer.test.tsx:82:24)
+
+  ● Quizzer Tests › Quizzes Have Questions › Quiz 3
+
+    TestingLibraryElementError: Unable to find an element with the text: Random Q1. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<h3>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"vstack gap-3"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mSpongebob Squarepants Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mHow much do you know about the yellow sponge that lives in a pineapple under the sea and all his friends? Test your knowledge in this all-inclusive quiz about Bikini Bottom's most notorious residents! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mElementary School Topics Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mAre you smarter than a fifth grader? Come take this short quiz to see! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mRandom Yes/No Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mDo you know yes or no to these random facts? I sure hope so! Come take this quiz and find out! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mDelaware Facts Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mTest how much you know about the first state in the Union! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mColor Theory Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 4[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mLet's see how much you know about color mixing! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</h3>[39m
+      [36m</div>[39m
+      [36m<div>[39m
+        [36m<h3>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"vstack gap-3"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mSpongebob Squarepants Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mHow much do you know about the yellow sponge that lives in a pineapple under the sea and all his friends? Test your knowledge in this all-inclusive quiz about Bikini Bottom's most notorious residents! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mElementary School Topics Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mAre you smarter than a fifth grader? Come take this short quiz to see! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mRandom Yes/No Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mDo you know yes or no to these random facts? I sure hope so! Come take this quiz and find out! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mDelaware Facts Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mTest how much you know about the first state in the Union! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mColor Theory Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 4[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mLet's see how much you know about color mixing! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</h3>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+      127 |         test("Quiz 3", () => {
+      128 |             expect(
+    > 129 |                 screen.getByText(myQuizzes[2].questions[0].name)
+          |                        ^
+      130 |             ).toBeInTheDocument();
+      131 |             expect(
+      132 |                 screen.getByText(myQuizzes[2].questions[1].name)
+
+      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:38:19)
+      at node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+      at node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByText (node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/quizzer/Quizzer.test.tsx:129:24)
+
+  ● Quizzer Tests › Quizzes Have Questions › Quiz 4
+
+    TestingLibraryElementError: Unable to find an element with the text: Delaware Q1. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<h3>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"vstack gap-3"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mSpongebob Squarepants Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mHow much do you know about the yellow sponge that lives in a pineapple under the sea and all his friends? Test your knowledge in this all-inclusive quiz about Bikini Bottom's most notorious residents! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mElementary School Topics Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mAre you smarter than a fifth grader? Come take this short quiz to see! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mRandom Yes/No Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mDo you know yes or no to these random facts? I sure hope so! Come take this quiz and find out! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mDelaware Facts Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mTest how much you know about the first state in the Union! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mColor Theory Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 4[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mLet's see how much you know about color mixing! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</h3>[39m
+      [36m</div>[39m
+      [36m<div>[39m
+        [36m<h3>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"vstack gap-3"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mSpongebob Squarepants Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mHow much do you know about the yellow sponge that lives in a pineapple under the sea and all his friends? Test your knowledge in this all-inclusive quiz about Bikini Bottom's most notorious residents! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mElementary School Topics Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mAre you smarter than a fifth grader? Come take this short quiz to see! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mRandom Yes/No Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mDo you know yes or no to these random facts? I sure hope so! Come take this quiz and find out! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mDelaware Facts Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mTest how much you know about the first state in the Union! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mColor Theory Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 4[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mLet's see how much you know about color mixing! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</h3>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+      156 |         test("Quiz 4", () => {
+      157 |             expect(
+    > 158 |                 screen.getByText(myQuizzes[3].questions[0].name)
+          |                        ^
+      159 |             ).toBeInTheDocument();
+      160 |             expect(
+      161 |                 screen.getByText(myQuizzes[3].questions[1].name)
+
+      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:38:19)
+      at node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+      at node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByText (node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/quizzer/Quizzer.test.tsx:158:24)
+
+  ● Quizzer Tests › Quizzes Have Questions › Quiz 5
+
+    TestingLibraryElementError: Unable to find an element with the text: Colors Q1. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<h3>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"vstack gap-3"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mSpongebob Squarepants Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mHow much do you know about the yellow sponge that lives in a pineapple under the sea and all his friends? Test your knowledge in this all-inclusive quiz about Bikini Bottom's most notorious residents! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mElementary School Topics Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mAre you smarter than a fifth grader? Come take this short quiz to see! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mRandom Yes/No Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mDo you know yes or no to these random facts? I sure hope so! Come take this quiz and find out! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mDelaware Facts Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mTest how much you know about the first state in the Union! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mColor Theory Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 4[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mLet's see how much you know about color mixing! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</h3>[39m
+      [36m</div>[39m
+      [36m<div>[39m
+        [36m<h3>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"vstack gap-3"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mSpongebob Squarepants Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mHow much do you know about the yellow sponge that lives in a pineapple under the sea and all his friends? Test your knowledge in this all-inclusive quiz about Bikini Bottom's most notorious residents! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mElementary School Topics Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 5[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mAre you smarter than a fifth grader? Come take this short quiz to see! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mRandom Yes/No Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mDo you know yes or no to these random facts? I sure hope so! Come take this quiz and find out! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mDelaware Facts Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 3[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mTest how much you know about the first state in the Union! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<p>[39m
+                  [0mColor Theory Quiz[0m
+                [36m</p>[39m
+                [36m<h4>[39m
+                  [0mTotal Questions: 4[0m
+                [36m</h4>[39m
+                [36m<h6>[39m
+                  [0mLet's see how much you know about color mixing! [0m
+                [36m</h6>[39m
+                [36m<div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mOpen/Close[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-danger"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mDelete[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"col"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</h3>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+      185 |         test("Quiz 5", () => {
+      186 |             expect(
+    > 187 |                 screen.getByText(myQuizzes[4].questions[0].name)
+          |                        ^
+      188 |             ).toBeInTheDocument();
+      189 |             expect(
+      190 |                 screen.getByText(myQuizzes[4].questions[1].name)
+
+      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:38:19)
+      at node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+      at node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByText (node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/quizzer/Quizzer.test.tsx:187:24)
+
+
+Test Suites: 1 failed, 20 passed, 21 total
+Tests:       6 failed, 135 passed, 141 total
 Snapshots:   0 total
-Time:        11.441 s
+Time:        14.51 s
 Ran all test suites.
