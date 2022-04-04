@@ -12,7 +12,6 @@ export function QuizView({
 {
     quiz: Quiz;
     deleteQuiz: (id: number) => void;
-    //editQuiz: (id: number, aQuiz: Quiz) => void;
 }): JSX.Element {
     const [visible, setVisible] = useState<boolean>(false);
     const [editMode, setEditMode] = useState<boolean>(false);
@@ -42,7 +41,6 @@ export function QuizView({
             quiz={quiz}
             deleteQuiz={deleteQuiz}
             flipEditMode={flipEditMode}
-            //editQuiz={editQuiz}
         ></QuizEdit>
     ) : (
         <div>
