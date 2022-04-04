@@ -7,12 +7,12 @@ import { QuizEdit } from "./QuizEdit";
 
 export function QuizList({
     quizzes,
-    deleteQuiz,
-    editQuiz
-}: {
+    deleteQuiz
+}: //editQuiz
+{
     quizzes: Quiz[];
     deleteQuiz: (id: number) => void;
-    editQuiz: (id: number, newQuiz: Quiz) => void;
+    //editQuiz: (id: number, newQuiz: Quiz) => void;
 }): JSX.Element {
     return (
         <Stack gap={3}>
@@ -21,7 +21,7 @@ export function QuizList({
                     <QuizView
                         quiz={quiz}
                         deleteQuiz={deleteQuiz}
-                        editQuiz={editQuiz}
+                        //editQuiz={editQuiz}
                     ></QuizView>
                 </div>
             ))}

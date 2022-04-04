@@ -14,18 +14,20 @@ export function Quizzer(): JSX.Element {
         setQuizzes(quizzes.filter((quiz: Quiz): boolean => quiz.id !== id));
     }
 
+    /*
     function editQuiz(id: number, aQuiz: Quiz) {
         setQuizzes(
             quizzes.map((quiz: Quiz): Quiz => (quiz.id === id ? aQuiz : quiz))
         );
     }
+    */
 
     return (
         <h3>
             <QuizList
                 quizzes={allQuizzes}
                 deleteQuiz={deleteQuiz}
-                editQuiz={editQuiz}
+                //editQuiz={editQuiz}
             ></QuizList>
         </h3>
     );

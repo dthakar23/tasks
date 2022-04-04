@@ -1,24 +1,24 @@
 import React, { useState } from "react";
-import { Form, Button } from "react-bootstrap";
+import { Form, Button, Container, Row, Col } from "react-bootstrap";
 import { Quiz } from "../quizzerinterfaces/quiz";
 import { QuizQuestion } from "../quizzerinterfaces/quizquestion";
 
-export const QuizEdit = ({
+export function QuizEdit({
     quiz,
     deleteQuiz,
-    editQuiz,
     flipEditMode
-}: {
+}: //editQuiz
+{
     quiz: Quiz;
     deleteQuiz: (id: number) => void;
+    //editQuiz: (id: number, aQuiz: Quiz) => void;
     flipEditMode: () => void;
-    editQuiz: (id: number, aQuiz: Quiz) => void;
-}) => {
+}): JSX.Element {
     return (
-        <div>
-            <Button variant="danger" onClick={() => deleteQuiz(quiz.id)}>
-                Delete Quiz
-            </Button>
-        </div>
+        <Container>
+            <Row>
+                <Col></Col>
+            </Row>
+        </Container>
     );
-};
+}

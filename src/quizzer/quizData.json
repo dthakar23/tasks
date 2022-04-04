@@ -46,7 +46,7 @@
                 "body": "Sandy the squirrel is from which state?",
                 "points": 2,
                 "type": "short_answer",
-                "options": [],
+                "options": [""],
                 "expected": "Texas",
                 "published": true
             },
@@ -74,7 +74,7 @@
                 "body": "What is 2+2?",
                 "points": 2,
                 "type": "short_answer",
-                "options": [],
+                "options": [""],
                 "expected": "4",
                 "published": true
             },
@@ -94,7 +94,7 @@
                 "body": "What does 9*9 equal?",
                 "points": 2,
                 "type": "short_answer",
-                "options": [],
+                "options": [""],
                 "expected": "81",
                 "published": true
             },
@@ -151,7 +151,7 @@
                 "body": "What came first? The chicken or the egg?",
                 "points": 2,
                 "type": "short_answer",
-                "options": [],
+                "options": [""],
                 "expected": "lolz I don't know",
                 "published": true
             },
@@ -221,7 +221,7 @@
                 "body": "What does yellow mixed with red make?",
                 "points": 2,
                 "type": "short_answer",
-                "options": [],
+                "options": [""],
                 "expected": "orange",
                 "published": false
             },
@@ -251,7 +251,7 @@
                 "body": "What is the absence of all colors?",
                 "points": 3,
                 "type": "short_answer",
-                "options": [],
+                "options": [""],
                 "expected": "black",
                 "published": true
             }
