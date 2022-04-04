@@ -1,23 +1,30 @@
-import React, { useState } from "react";
-import { Form, Button, Container, Row, Col } from "react-bootstrap";
+import React from "react";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import { Quiz } from "../quizzerinterfaces/quiz";
-import { QuizQuestion } from "../quizzerinterfaces/quizquestion";
+//import { QuizQuestion } from "../quizzerinterfaces/quizquestion";
 
 export function QuizEdit({
     quiz,
     deleteQuiz,
     flipEditMode
-}: //editQuiz
-{
+}: {
     quiz: Quiz;
     deleteQuiz: (id: number) => void;
-    //editQuiz: (id: number, aQuiz: Quiz) => void;
     flipEditMode: () => void;
 }): JSX.Element {
+    function reOpenDeleted() {
+        flipEditMode();
+    }
+
     return (
         <Container>
             <Row>
-                <Col></Col>
+                <Col>
+                    <Button onClick={() => deleteQuiz(quiz.id)}></Button>
+                    <Button onClick={reOpenDeleted}>
+                        ReOpen Deleted Question
+                    </Button>
+                </Col>
             </Row>
         </Container>
     );

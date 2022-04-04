@@ -1,7 +1,7 @@
 import { QuizQuestion } from "../quizzerinterfaces/quizquestion";
 import React, { useState } from "react";
 import { Button, Form } from "react-bootstrap";
-import { QuestionList } from "./QuestionList";
+//import { QuestionList } from "./QuestionList";
 
 type ChangeEvent = React.ChangeEvent<
     HTMLTextAreaElement | HTMLInputElement | HTMLSelectElement
