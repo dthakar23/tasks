@@ -2392,7 +2392,7 @@ All files                      |    92.2 |     87.5 |   87.58 |   92.33 |
   QuestionView.tsx             |       0 |        0 |       0 |       0 | 19-92             
   QuizEdit.tsx                 |       0 |      100 |       0 |       0 | 16-23             
   QuizList.tsx                 |     100 |      100 |     100 |     100 |                   
-  QuizView.tsx                 |   57.14 |       50 |      25 |   57.14 | 23-31             
+  QuizView.tsx                 |   57.14 |       50 |      25 |   57.14 | 22-30             
  src/quizzer/quizzerinterfaces |       0 |        0 |       0 |       0 |                   
   quiz.ts                      |       0 |        0 |       0 |       0 |                   
   quizquestion.ts              |       0 |        0 |       0 |       0 |                   
@@ -4714,5 +4714,5 @@ FAIL src/quizzer/Quizzer.test.tsx
 Test Suites: 1 failed, 20 passed, 21 total
 Tests:       6 failed, 135 passed, 141 total
 Snapshots:   0 total
-Time:        14.51 s
+Time:        13.806 s
 Ran all test suites.
