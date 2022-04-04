@@ -40,6 +40,12 @@ function App(): JSX.Element {
                     Users can enter or choose an answer for a quiz question, and
                     be told if they are correct
                 </li>
+                <li>Users can delete an existing quiz</li>
+                <li>Users can clear out their existing answers for a quiz</li>
+                <li>
+                    Users can filter the questions in a list so that only
+                    published questions are shown
+                </li>
             </ul>
             <img src={sketch} alt="My Quizzer Sketch"></img>
             <hr></hr>

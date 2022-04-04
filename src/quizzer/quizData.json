@@ -3,6 +3,7 @@
         "title": "Spongebob Squarepants Quiz",
         "description": "How much do you know about the yellow sponge that lives in a pineapple under the sea and all his friends? Test your knowledge in this all-inclusive quiz about Bikini Bottom's most notorious residents! ",
         "questionTotal": 5,
+        "id": 1,
         "questions": [
             {
                 "id": 1,
@@ -45,7 +46,7 @@
                 "body": "Sandy the squirrel is from which state?",
                 "points": 2,
                 "type": "short_answer",
-                "options": [],
+                "options": [""],
                 "expected": "Texas",
                 "published": true
             },
@@ -65,6 +66,7 @@
         "title": "Elementary School Topics Quiz",
         "description": "Are you smarter than a fifth grader? Come take this short quiz to see! ",
         "questionTotal": 5,
+        "id": 2,
         "questions": [
             {
                 "id": 1,
@@ -72,7 +74,7 @@
                 "body": "What is 2+2?",
                 "points": 2,
                 "type": "short_answer",
-                "options": [],
+                "options": [""],
                 "expected": "4",
                 "published": true
             },
@@ -92,7 +94,7 @@
                 "body": "What does 9*9 equal?",
                 "points": 2,
                 "type": "short_answer",
-                "options": [],
+                "options": [""],
                 "expected": "81",
                 "published": true
             },
@@ -131,6 +133,7 @@
         "title": "Random Yes/No Quiz",
         "description": "Do you know yes or no to these random facts? I sure hope so! Come take this quiz and find out! ",
         "questionTotal": 3,
+        "id": 3,
         "questions": [
             {
                 "id": 1,
@@ -148,7 +151,7 @@
                 "body": "What came first? The chicken or the egg?",
                 "points": 2,
                 "type": "short_answer",
-                "options": [],
+                "options": [""],
                 "expected": "lolz I don't know",
                 "published": true
             },
@@ -172,6 +175,7 @@
         "title": "Delaware Facts Quiz",
         "description": "Test how much you know about the first state in the Union! ",
         "questionTotal": 3,
+        "id": 4,
         "questions": [
             {
                 "id": 1,
@@ -209,6 +213,7 @@
         "title": "Color Theory Quiz",
         "description": "Let's see how much you know about color mixing! ",
         "questionTotal": 4,
+        "id": 5,
         "questions": [
             {
                 "id": 1,
@@ -216,7 +221,7 @@
                 "body": "What does yellow mixed with red make?",
                 "points": 2,
                 "type": "short_answer",
-                "options": [],
+                "options": [""],
                 "expected": "orange",
                 "published": false
             },
@@ -246,7 +251,7 @@
                 "body": "What is the absence of all colors?",
                 "points": 3,
                 "type": "short_answer",
-                "options": [],
+                "options": [""],
                 "expected": "black",
                 "published": true
             }

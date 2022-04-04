@@ -1,6 +1,7 @@
 import { QuizQuestion } from "./quizquestion";
 
 export interface Quiz {
+    id: number; //use to delete
     title: string; //name of quiz
     description: string; //what quiz is on
     questionTotal: number; //how many questions in quiz

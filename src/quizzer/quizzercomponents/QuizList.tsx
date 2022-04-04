@@ -3,15 +3,16 @@ import { Stack } from "react-bootstrap";
 import { Quiz } from "../quizzerinterfaces/quiz";
 //import { QuizQuestion } from "../quizzerinterfaces/quizquestion";
 import { QuizView } from "./QuizView";
+//mport { QuizEdit } from "./QuizEdit";
 
 export function QuizList({
-    quizzes
-}: //deleteQuiz,
-//editQuiz
+    quizzes,
+    deleteQuiz
+}: //editQuiz
 {
     quizzes: Quiz[];
-    //deleteQuiz: (title: string) => void;
-    //editQuiz: (title: string, newQuiz: Quiz) => void;
+    deleteQuiz: (id: number) => void;
+    //editQuiz: (id: number, newQuiz: Quiz) => void;
 }): JSX.Element {
     return (
         <Stack gap={3}>
@@ -19,7 +20,7 @@ export function QuizList({
                 <div key={quiz.title} className="bg-light border m-2 p-2">
                     <QuizView
                         quiz={quiz}
-                        //deleteQuiz={deleteQuiz}
+                        deleteQuiz={deleteQuiz}
                         //editQuiz={editQuiz}
                     ></QuizView>
                 </div>
